@@ -28,7 +28,7 @@
         },
         {
           "type": "logic_null",
-          "active": true
+          "active": false
         },
         {
           "type": "logic_ternary",
@@ -58,7 +58,7 @@
         },
         {
           "type": "controls_flow_statements",
-          "active": true
+          "active": false
         }
       ]
     },
@@ -76,23 +76,23 @@
         },
         {
           "type": "math_single",
-          "active": true
+          "active": false
         },
         {
           "type": "math_trig",
-          "active": true
+          "active": false
         },
         {
           "type": "math_constant",
-          "active": true
+          "active": false
         },
         {
           "type": "math_number_property",
-          "active": true
+          "active": false
         },
         {
           "type": "math_round",
-          "active": true
+          "active": false
         },
         {
           "type": "math_on_list",
@@ -100,11 +100,11 @@
         },
         {
           "type": "math_modulo",
-          "active": true
+          "active": false
         },
         {
           "type": "math_constrain",
-          "active": true
+          "active": false
         },
         {
           "type": "math_random_int",
@@ -112,17 +112,17 @@
         },
         {
           "type": "math_random_float",
-          "active": true
+          "active": false
         },
         {
           "type": "math_atan2",
-          "active": true
+          "active": false
         }
       ]
     },
     {
       "name": "Text",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "text",
@@ -142,7 +142,7 @@
         },
         {
           "type": "text_multiline",
-          "active": false
+          "active": true
         },
         {
           "type": "text_join",
@@ -246,7 +246,7 @@
     },
     {
       "name": "Farben",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "colour_picker",
@@ -290,7 +290,7 @@
         },
         {
           "name": "Klassen-Attribute",
-          "active": true
+          "active": false
         }
       ]
     },
@@ -353,7 +353,7 @@
         },
         {
           "name": "Externe Klassen-Methoden",
-          "active": true,
+          "active": false,
           "blocks": [
             {
               "type": "java_ext_static_call_noreturn",
@@ -381,11 +381,11 @@
         },
         {
           "type": "java_extends",
-          "active": true
+          "active": false
         },
         {
           "type": "java_super_call",
-          "active": true
+          "active": false
         }
       ]
     },
@@ -395,7 +395,7 @@
       "blocks": [
         {
           "type": "gfx_extends",
-          "active": true
+          "active": false
         },
         {
           "type": "java_local_var_set",
@@ -403,11 +403,11 @@
         },
         {
           "type": "gfx_polygon_add_point",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_group_add",
-          "active": true
+          "active": false
         }
       ]
     },
@@ -513,7 +513,7 @@
     },
     {
       "name": "Grafik: Turtle",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "java_local_var_set",

@@ -5,8 +5,8 @@
       {
         "type": "java_static_method_noreturn",
         "id": "0-~]xj!ER5LuqkjtzKSY",
-        "x": 106,
-        "y": 98,
+        "x": -209,
+        "y": -2,
         "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
         "icons": {
           "comment": {
@@ -18,8 +18,105 @@
         },
         "fields": {
           "NAME": "main"
+        },
+        "inputs": {
+          "STACK": {
+            "block": {
+              "type": "java_local_var_set",
+              "id": "7Io~a0u57~w)LPrt$9*7",
+              "fields": {
+                "VAR": {
+                  "id": "2A}Ro^7V}=SU:53qHpLa"
+                }
+              },
+              "inputs": {
+                "VALUE": {
+                  "block": {
+                    "type": "callconstructor",
+                    "id": "8JeewST*Rv5750`yB?og",
+                    "extraState": {
+                      "constructorValue": "Smiley:::double x,double y"
+                    },
+                    "fields": {
+                      "CONSTRUCTOR_CLASS": "Smiley:::double x,double y"
+                    },
+                    "inputs": {
+                      "ARG_double x": {
+                        "block": {
+                          "type": "math_number",
+                          "id": "[J/$~_z}vV}2*oLTt6++",
+                          "fields": {
+                            "NUM": 123
+                          }
+                        }
+                      },
+                      "ARG_double y": {
+                        "block": {
+                          "type": "math_number",
+                          "id": "15*bh~},M65ou5cS:-e$",
+                          "fields": {
+                            "NUM": 123
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "controls_whileUntil",
+                  "id": "W5#)4{$gf+Wpa6)EznHr",
+                  "fields": {
+                    "MODE": "WHILE"
+                  },
+                  "inputs": {
+                    "BOOL": {
+                      "block": {
+                        "type": "logic_boolean",
+                        "id": "a9^pSQ)$6!W[@[:fJ*yb",
+                        "fields": {
+                          "BOOL": "TRUE"
+                        }
+                      }
+                    },
+                    "DO": {
+                      "block": {
+                        "type": "java_obj_method_call_noreturn",
+                        "id": "|tVz(|$#da8~jwmdx3Ol",
+                        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"0\" method=\"rumfliegen\"></mutation>",
+                        "fields": {
+                          "METHOD": "rumfliegen"
+                        },
+                        "inputs": {
+                          "OBJ": {
+                            "block": {
+                              "type": "java_local_var_get",
+                              "id": ";eNf5J=K2ar#F|f!#nqc",
+                              "fields": {
+                                "VAR": {
+                                  "id": "2A}Ro^7V}=SU:53qHpLa"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     ]
-  }
+  },
+  "variables": [
+    {
+      "name": "smile",
+      "id": "2A}Ro^7V}=SU:53qHpLa",
+      "type": "local"
+    }
+  ]
 }

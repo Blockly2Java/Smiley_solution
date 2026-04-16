@@ -14,6 +14,15 @@ public class Main {
      * gestartet, wenn du auf 'Play' drückst.
      */
     public static void main() {
+        Smiley smile = new Smiley(123, 123);
+
+        while (true) {
+            smile.rumfliegen();
+        }
     }
 
 }
+
+
+// main()-Methode starten
+Main.main();
